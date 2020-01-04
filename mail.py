@@ -5,12 +5,10 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 
 s.starttls()
 
-sistem="ytbsistemi@gmail.com"
-sifre="Ytbs4545."
+sistem="example@gmail.com"
+sifre="pass."
 
 sistemalici="yusufkorucuuu@gmail.com"
-duzen=sistemalici.split(",")
-gorevlialici="osolmaz@outlook.com"
 
 s.login(sistem, sifre)
 
